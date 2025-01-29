@@ -1,6 +1,6 @@
 PDF Question Answering System
 
-A Python-based system for answering questions from PDF documents. The project extracts text from PDFs, splits it into chunks, generates embeddings using Ollama Llama 3.2, stores them in a FAISS vector store, and answers user queries by performing a vector search to retrieve the most relevant context. This context is then passed to an LLM to generate accurate answers.
+A system for answering questions from PDF documents. The project extracts text from PDFs, splits it into chunks, generates embeddings using Ollama Llama 3.2, stores them in a FAISS vector store, and answers user queries by performing a vector search to retrieve the most relevant context. This context is then passed to an LLM to generate accurate answers.
 
 Features:
 1.Extracts and splits text from PDFs.
